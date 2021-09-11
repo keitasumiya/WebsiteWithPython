@@ -1,0 +1,160 @@
+.sidemenu-index-title {
+	background-color: #ffffff;
+	color: #000000;
+	border-top: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+}
+
+
+.sidemenu-index-title p{
+	margin: 0;
+	text-align: center;
+}
+
+.sidemenu-form-title {
+	background-color: #ffffff;
+	color: #000000;
+	border-top: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.sidemenu-form-title p{
+	margin: 0;
+	text-align: center;
+}
+
+
+/*sidemenu 縦並び*/
+.sidemenu {
+	background-color: #ffffff;
+	overflow-wrap: break-word;
+	box-sizing: border-box;
+	margin: 0px 0px 0px 0px;
+}
+
+.sidemenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidemenu ul li {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.sidemenu li a {
+	display: block;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.sidemenu li:hover {
+	background-color: #000000;
+}
+
+.sidemenu li:hover a {
+	color: #ffffff;
+}
+
+.side-li-h1 {
+	padding-left: 10px;
+}
+
+.side-li-h2 {
+	padding-left: 20px;
+}
+
+.side-li-h3 {
+	padding-left: 30px;
+}
+
+.side-li-h4 {
+	padding-left: 40px;
+}
+
+.side-li-h5 {
+	padding-left: 50px;
+}
+
+.side-li-h6 {
+	padding-left: 60px;
+}
+
+.side-li-h1 a:before {
+	content: "▌";
+	color: #FF3205;
+}
+.side-li-h2 a:before {
+	content: "▌";
+	color: #E89707;
+}
+.side-li-h3 a:before {
+	content: "▌";
+	color: #87FF04;
+}
+.side-li-h4 a:before {
+	content: "▌";
+	color: #78C8E6;
+}
+.side-li-h5 a:before {
+	content: "▌";
+	color: #3a2fcf;
+}
+.side-li-h6 a:before {
+	content: "▌";
+	color: #000000;
+}
+
+.side-form {
+	width: 220px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+/* Responsive Design ################################################################################# */
+/* iPhone =============================================================================== */
+.sidemenu {
+  display: none;
+}
+
+/* iPad and PC =============================================================================== */
+@media screen and (min-width:768px) {
+	.article {
+		float: left;
+		width: 80%;
+		padding-left: 20px;
+		padding-right: 20px;
+		box-sizing: border-box;
+	}
+	
+	.sidemenu {
+    display: block;
+		float: right;
+		width: 20%;
+		padding-left: 10px;
+	}
+
+	.sidemenu-main {
+		position: sticky;
+		top: 0px;
+		z-index: 1;
+	}
+	
+	.main {
+		display: -webkit-flex;
+		display: flex;
+	}
+}
+
+/* iPad =============================================================================== */
+@media screen and (min-width:768px) and ( max-width:1200px) {
+	.article {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+

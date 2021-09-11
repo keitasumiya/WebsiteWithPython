@@ -1,0 +1,40 @@
+.related-articles {
+	background-color: rgb(232, 243, 255);
+	margin-top: 10px;
+}
+
+.related-articles h2 {
+	background-color: rgb(169, 209, 254);
+	border-top: 10px solid #0678f2;
+	border-bottom: 3px dashed #0678f2;
+	color: #000000;
+	padding-top: .3em;
+	padding-bottom: .3em;
+	font-size: 1.75em;
+	line-height: 1.225;
+	counter-increment: chapter;
+	counter-reset: section;
+	clear: right;
+	margin: 0;
+  }
+  
+  .related-articles h2:before {
+	content: "▌";
+	color: #000000;
+  }
+  
+  .related-articles h3 {
+	background-color: rgb(193, 222, 255);
+	font-size: 1.5em;
+	line-height: 1.43;
+	counter-increment: section;
+	counter-reset: subsection;
+	clear: right;
+	margin: 0;
+  }
+  
+  .related-articles h3:before {
+	content: "▌"counter(section) ". ";
+	color: #000000;
+  }
+

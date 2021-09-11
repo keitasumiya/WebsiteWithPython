@@ -1,0 +1,42 @@
+.ad-side-portrait {
+  margin: 0px auto 0px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.ad-main {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0px auto 50px auto;
+}
+
+.ad-search {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0px auto 0px auto;
+}
+
+/* Responsive Design ################################################################################# */
+/* iPhone and iPad =============================================================================== */
+.ad-main {
+  width: 100%;
+}
+
+.ad-search {
+  width: 100%;
+}
+
+/* PC =============================================================================== */
+@media screen and (min-width:1200px) {
+  .ad-main {
+    width: 1200px;
+  }
+
+  .ad-search {
+    width: 1200px;
+  }
+}
+

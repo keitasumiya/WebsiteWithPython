@@ -1,0 +1,37 @@
+body {
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.main {
+	margin: 0px auto 50px auto;
+}
+
+.main:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* Responsive Design ################################################################################# */
+/* iPhone and iPad =============================================================================== */
+.main {
+	width: 100%;
+}
+
+.article {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* PC =============================================================================== */
+@media screen and (min-width:1200px) {
+	.main {
+		width: 1200px;
+	}
+}
+  
+

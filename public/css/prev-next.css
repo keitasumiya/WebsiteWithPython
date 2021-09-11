@@ -1,0 +1,56 @@
+.prev-next:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.prev-next-each {
+	overflow-wrap: break-word;
+}
+
+.prev-next-each a {
+  display: block;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.prev-next-each p {
+  text-align: center;
+  padding: 0px 5px;
+  margin: 0 0;
+}
+
+.prev-next-each:hover {
+	background-color: #000000;
+}
+.prev-next-each:hover a {
+	color: #ffffff;
+}
+
+/* Responsive Design ################################################################################# */
+/* for iPhone Portrait =============================================================================== */
+.prev-next-menu {
+  width: 100%;
+  margin: 0 auto;
+}
+.prev-next-each {
+  float: left;
+  width: 50%;
+}
+
+/*　for iPad =============================================================================== */
+@media screen and (min-width:768px) and ( max-width:1200px) {
+  .prev-next-menu {
+    width: 80%;
+  }
+}
+
+/*　for PC　=============================================================================== */
+@media screen and (min-width:1200px) {
+  .prev-next-menu {
+    width: 60%;
+  }
+}
+
+

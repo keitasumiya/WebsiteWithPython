@@ -1,0 +1,10 @@
+{
+    "rootDir": "../public",
+    "publicDirNames": ["aboutme","blog","blog/nestTest","blog2"],
+    "articleTopNames": ["blog","blog/nestTest","blog2"],
+    "articleYears": {
+        "blog": ["2018","2021"],
+        "blog/nestTest": ["2019","2021"],
+        "blog2": ["2020","2021"]
+    }
+}

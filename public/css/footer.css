@@ -1,0 +1,62 @@
+.footer {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  height: auto;
+  overflow: hidden;
+  padding: 0px 20px 20px 20px;
+  margin-top: 50px;
+}
+
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-logo a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  list-style: none;
+  padding: 2px;
+}
+
+.footer-list a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.footer-list li:hover {
+	background-color: #000000;
+}
+
+.footer-list li:hover a {
+  color: #ffffff;
+}
+
+.footer-main:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Responsive Design ################################################################################# */
+/* iPhone and iPad =============================================================================== */
+.footer-main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* PC =============================================================================== */
+@media screen and (min-width:1200px) {
+  .footer-main {
+    width: 1200px;
+  }
+}
+
